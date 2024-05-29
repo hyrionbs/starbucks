@@ -47,3 +47,8 @@ new Swiper('.notice-line .swiper-container', {
     autoplay: true,
     loop: true
 });
+new swiper('.promotion .swiper-container', {
+    slidePerView: 3,
+    spaceBetween:10,
+    censtereSlides: true,
+});
